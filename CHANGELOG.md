@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Update 2023-09-01"
+1. Update to [OpenCore 0.9.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.4)
+2. Change model id to `MacBookPro11,5`
+
 ## Update 2023-08-30:
 1. Update the physical setup to feature an `Atheros AR5B93/9283` WLAN adapter, instead of an old `Broadcom BCM94313HMGB`, which is **unsupported** in **all** versions of macOS to date.
 2. Add `IO80211HighSierra.kext` from the  [khronokernel's repository.](https://github.com/khronokernel/IO80211-Patches)
