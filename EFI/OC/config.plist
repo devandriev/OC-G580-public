@@ -16,6 +16,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom SSDT-PM for Pentium B960 ONLY (by devandriev)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PM.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-HPET.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -40,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>Make backlight control work (by devandriev)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -63,7 +71,7 @@
 				<key>Comment</key>
 				<string>Delete CpuPm</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>OemTableId</key>
 				<data>
 				Q3B1UG0AAAA=
@@ -81,7 +89,7 @@
 				<key>Comment</key>
 				<string>Delete Cpu0Ist</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>OemTableId</key>
 				<data>
 				Q3B1MElzdAA=
@@ -1368,7 +1376,7 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -1382,7 +1390,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1401,6 +1409,24 @@
 				<string>CustomOS</string>
 				<key>Path</key>
 				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string>Not signed for security reasons</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>Windows 11</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0x0,0x0)/HD(3,GPT,76B072DE-BD9D-48A6-9313-C71DCF81ADEA,0x3A800,0xED1F000)/\EFI\BOOT\BOOTX64.EFI</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1730,7 +1756,7 @@
 			<key>ARTFrequency</key>
 			<integer>0</integer>
 			<key>BoardProduct</key>
-			<string></string>
+			<string>Mac-66E35819EE2D0D05</string>
 			<key>BoardRevision</key>
 			<data>
 			FA==
@@ -1769,13 +1795,14 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>C02639100GUH9W8AD</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1799</integer>
 			<key>ROM</key>
 			<data>
+			pNGMsQbT
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1803,7 +1830,7 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string></string>
+			<string>Mac-66E35819EE2D0D05</string>
 			<key>BoardSerialNumber</key>
 			<string></string>
 			<key>BoardType</key>
