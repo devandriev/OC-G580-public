@@ -1,4 +1,4 @@
-# len-G580-hacOS-Monterey
+# OC-G580-public
 This repository contains the EFI needed to boot into macOS Monterey/Big Sur system or installer from Lenovo G580 Type 2189/20150 (see Lenovo support website for more hardware information).
 
 ## Supported hardware
@@ -17,6 +17,6 @@ As of 7th September 2023 this repository contains the EFI for `Intel® Pentium B
 |GPU         | (to be) Intel HD 2000 / ~~NVIDIA 710M~~ (disabled with `-wegnoegpu`) |
 |RAM         | 2x8GB 1333/1600 Mhz |
 |Trackpad    | Lenovo G580 ELAN PS/2 Trackpad |
-|Display|Generic BOE LVDS Display, 1366x768 HD|
+|Display| Generic BOE LVDS Display, 1366x768 HD |
 |Hard drives| SATA Kingston SKC600 256GB SSD\n<hr>IDE PLDS DVD-RW Drive|
 
