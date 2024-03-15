@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## Update 2024-03-15 (fix WiFi issues and Sonoma 14.4 support)
+1. Update OpenCore and binaries to v0.9.9
+2. The system now uses a "legacy Broadcom" card by name `BCM943224(HMS)` which requires new kernel extensions. Atheros AR5B93 will not work anymore and is unsupported.
+3. Update [IOSkywalkFamily.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.1.0.zip) to v1.1.0
+4. Fix WiFi issues with `-brcmfxbeta`.
+5. Add [AMFIPass.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.0-RELEASE.zip) to circumvent AMFI glitches with permissions etc.
+
 ## Update 2023-09-05 (make sound work)
 1. Add [AppleALC.kext](https://github.com/acidanthera/AppleALC)
 2. Add layout-id `3` (`03000000`) to HDEF's DeviceProperties
