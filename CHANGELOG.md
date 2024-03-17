@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Update 2024-03-17 (fix sleep issues & update docs)
+1. Fix sleep issues by patching various Lenovo G580 ACPI `_PRW` method returns with `(0x09, 0x04)`;
+2. Update docs about branches and README's;
+3. Update supported hardware information in `README.md`
+
 ## Update 2024-03-15 (fix WiFi issues and Sonoma 14.4 support)
 1. Update OpenCore and binaries to v0.9.9
 2. The system now uses a "legacy Broadcom" card by name `BCM943224(HMS)` which requires new kernel extensions. Atheros AR5B93 will not work anymore and is unsupported.
