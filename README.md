@@ -14,7 +14,7 @@ As of beginning of year 2024, the supported hardware is changed as the author's 
 | :---------- | :------ | 
 |CPU       |Intel®️ Core i7-3632QM @ 2.2Ghz|
 |Motherboard | Lenovo G580-20150 HM76 Express|
-|GPU         | (to be) Intel HD 4000 / ~~NVIDIA 710M~~ (disabled with `-wegnoegpu`) |
+|GPU         | Intel HD 4000 / ~~NVIDIA 710M~~ (disabled with `-wegnoegpu`) |
 |RAM         | 2x8GB 1333/1600 Mhz |
 |Trackpad    | Lenovo G580 ELAN PS/2 Trackpad |
 |Display| Generic BOE LVDS Display, 1366x768 HD |
